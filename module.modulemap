@@ -1,0 +1,5 @@
+module ncurses [system] {
+  header "/usr/include/ncursesw/ncurses.h"
+  link "ncursesw"
+  export *
+}
